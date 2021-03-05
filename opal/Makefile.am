@@ -46,7 +46,7 @@ DIST_SUBDIRS = \
 	$(MCA_opal_FRAMEWORK_COMPONENT_ALL_SUBDIRS)
 
 # Build the main OPAL library
-
+# opal/datatype/Makefile.am
 lib_LTLIBRARIES = lib@OPAL_LIB_PREFIX@open-pal.la
 lib@OPAL_LIB_PREFIX@open_pal_la_SOURCES =
 lib@OPAL_LIB_PREFIX@open_pal_la_LIBADD = \
